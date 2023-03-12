@@ -61,6 +61,18 @@ build CMakeFiles/baekjoon.dir/5430.cpp.obj: CXX_COMPILER__baekjoon_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\baekjoon.dir
   OBJECT_FILE_DIR = CMakeFiles\baekjoon.dir
 
+build CMakeFiles/baekjoon.dir/14500.cpp.obj: CXX_COMPILER__baekjoon_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/14500.cpp || cmake_object_order_depends_target_baekjoon
+  DEP_FILE = CMakeFiles\baekjoon.dir\14500.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\baekjoon.dir
+  OBJECT_FILE_DIR = CMakeFiles\baekjoon.dir
+
+build CMakeFiles/baekjoon.dir/13549.cpp.obj: CXX_COMPILER__baekjoon_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/13549.cpp || cmake_object_order_depends_target_baekjoon
+  DEP_FILE = CMakeFiles\baekjoon.dir\13549.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\baekjoon.dir
+  OBJECT_FILE_DIR = CMakeFiles\baekjoon.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target baekjoon
@@ -69,7 +81,7 @@ build CMakeFiles/baekjoon.dir/5430.cpp.obj: CXX_COMPILER__baekjoon_Debug C$:/Use
 #############################################
 # Link the executable baekjoon.exe
 
-build baekjoon.exe: CXX_EXECUTABLE_LINKER__baekjoon_Debug CMakeFiles/baekjoon.dir/main.cpp.obj CMakeFiles/baekjoon.dir/5430.cpp.obj
+build baekjoon.exe: CXX_EXECUTABLE_LINKER__baekjoon_Debug CMakeFiles/baekjoon.dir/main.cpp.obj CMakeFiles/baekjoon.dir/5430.cpp.obj CMakeFiles/baekjoon.dir/14500.cpp.obj CMakeFiles/baekjoon.dir/13549.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\baekjoon.dir
@@ -112,6 +124,303 @@ build 5430.exe: CXX_EXECUTABLE_LINKER__5430_Debug CMakeFiles/5430.dir/5430.cpp.o
   TARGET_IMPLIB = lib5430.dll.a
   TARGET_PDB = 5430.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 14500
+
+
+#############################################
+# Order-only phony target for 14500
+
+build cmake_object_order_depends_target_14500: phony || CMakeFiles/14500.dir
+
+build CMakeFiles/14500.dir/14500.cpp.obj: CXX_COMPILER__14500_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/14500.cpp || cmake_object_order_depends_target_14500
+  DEP_FILE = CMakeFiles\14500.dir\14500.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\14500.dir
+  OBJECT_FILE_DIR = CMakeFiles\14500.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 14500
+
+
+#############################################
+# Link the executable 14500.exe
+
+build 14500.exe: CXX_EXECUTABLE_LINKER__14500_Debug CMakeFiles/14500.dir/14500.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\14500.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 14500.exe
+  TARGET_IMPLIB = lib14500.dll.a
+  TARGET_PDB = 14500.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 13549
+
+
+#############################################
+# Order-only phony target for 13549
+
+build cmake_object_order_depends_target_13549: phony || CMakeFiles/13549.dir
+
+build CMakeFiles/13549.dir/13549.cpp.obj: CXX_COMPILER__13549_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/13549.cpp || cmake_object_order_depends_target_13549
+  DEP_FILE = CMakeFiles\13549.dir\13549.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\13549.dir
+  OBJECT_FILE_DIR = CMakeFiles\13549.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 13549
+
+
+#############################################
+# Link the executable 13549.exe
+
+build 13549.exe: CXX_EXECUTABLE_LINKER__13549_Debug CMakeFiles/13549.dir/13549.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\13549.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13549.exe
+  TARGET_IMPLIB = lib13549.dll.a
+  TARGET_PDB = 13549.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12851
+
+
+#############################################
+# Order-only phony target for 12851
+
+build cmake_object_order_depends_target_12851: phony || CMakeFiles/12851.dir
+
+build CMakeFiles/12851.dir/12851.cpp.obj: CXX_COMPILER__12851_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/12851.cpp || cmake_object_order_depends_target_12851
+  DEP_FILE = CMakeFiles\12851.dir\12851.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\12851.dir
+  OBJECT_FILE_DIR = CMakeFiles\12851.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12851
+
+
+#############################################
+# Link the executable 12851.exe
+
+build 12851.exe: CXX_EXECUTABLE_LINKER__12851_Debug CMakeFiles/12851.dir/12851.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\12851.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12851.exe
+  TARGET_IMPLIB = lib12851.dll.a
+  TARGET_PDB = 12851.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1753
+
+
+#############################################
+# Order-only phony target for 1753
+
+build cmake_object_order_depends_target_1753: phony || CMakeFiles/1753.dir
+
+build CMakeFiles/1753.dir/1753.cpp.obj: CXX_COMPILER__1753_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/1753.cpp || cmake_object_order_depends_target_1753
+  DEP_FILE = CMakeFiles\1753.dir\1753.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\1753.dir
+  OBJECT_FILE_DIR = CMakeFiles\1753.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1753
+
+
+#############################################
+# Link the executable 1753.exe
+
+build 1753.exe: CXX_EXECUTABLE_LINKER__1753_Debug CMakeFiles/1753.dir/1753.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1753.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1753.exe
+  TARGET_IMPLIB = lib1753.dll.a
+  TARGET_PDB = 1753.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9251
+
+
+#############################################
+# Order-only phony target for 9251
+
+build cmake_object_order_depends_target_9251: phony || CMakeFiles/9251.dir
+
+build CMakeFiles/9251.dir/9251.cpp.obj: CXX_COMPILER__9251_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/9251.cpp || cmake_object_order_depends_target_9251
+  DEP_FILE = CMakeFiles\9251.dir\9251.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\9251.dir
+  OBJECT_FILE_DIR = CMakeFiles\9251.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9251
+
+
+#############################################
+# Link the executable 9251.exe
+
+build 9251.exe: CXX_EXECUTABLE_LINKER__9251_Debug CMakeFiles/9251.dir/9251.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\9251.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9251.exe
+  TARGET_IMPLIB = lib9251.dll.a
+  TARGET_PDB = 9251.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1865
+
+
+#############################################
+# Order-only phony target for 1865
+
+build cmake_object_order_depends_target_1865: phony || CMakeFiles/1865.dir
+
+build CMakeFiles/1865.dir/1865.cpp.obj: CXX_COMPILER__1865_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/1865.cpp || cmake_object_order_depends_target_1865
+  DEP_FILE = CMakeFiles\1865.dir\1865.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\1865.dir
+  OBJECT_FILE_DIR = CMakeFiles\1865.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1865
+
+
+#############################################
+# Link the executable 1865.exe
+
+build 1865.exe: CXX_EXECUTABLE_LINKER__1865_Debug CMakeFiles/1865.dir/1865.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1865.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1865.exe
+  TARGET_IMPLIB = lib1865.dll.a
+  TARGET_PDB = 1865.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11657
+
+
+#############################################
+# Order-only phony target for 11657
+
+build cmake_object_order_depends_target_11657: phony || CMakeFiles/11657.dir
+
+build CMakeFiles/11657.dir/11657.cpp.obj: CXX_COMPILER__11657_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/11657.cpp || cmake_object_order_depends_target_11657
+  DEP_FILE = CMakeFiles\11657.dir\11657.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\11657.dir
+  OBJECT_FILE_DIR = CMakeFiles\11657.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11657
+
+
+#############################################
+# Link the executable 11657.exe
+
+build 11657.exe: CXX_EXECUTABLE_LINKER__11657_Debug CMakeFiles/11657.dir/11657.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11657.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11657.exe
+  TARGET_IMPLIB = lib11657.dll.a
+  TARGET_PDB = 11657.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1918
+
+
+#############################################
+# Order-only phony target for 1918
+
+build cmake_object_order_depends_target_1918: phony || CMakeFiles/1918.dir
+
+build CMakeFiles/1918.dir/1918.cpp.obj: CXX_COMPILER__1918_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/1918.cpp || cmake_object_order_depends_target_1918
+  DEP_FILE = CMakeFiles\1918.dir\1918.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\1918.dir
+  OBJECT_FILE_DIR = CMakeFiles\1918.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1918
+
+
+#############################################
+# Link the executable 1918.exe
+
+build 1918.exe: CXX_EXECUTABLE_LINKER__1918_Debug CMakeFiles/1918.dir/1918.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1918.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1918.exe
+  TARGET_IMPLIB = lib1918.dll.a
+  TARGET_PDB = 1918.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2263
+
+
+#############################################
+# Order-only phony target for 2263
+
+build cmake_object_order_depends_target_2263: phony || CMakeFiles/2263.dir
+
+build CMakeFiles/2263.dir/2263.cpp.obj: CXX_COMPILER__2263_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/2263.cpp || cmake_object_order_depends_target_2263
+  DEP_FILE = CMakeFiles\2263.dir\2263.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\2263.dir
+  OBJECT_FILE_DIR = CMakeFiles\2263.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2263
+
+
+#############################################
+# Link the executable 2263.exe
+
+build 2263.exe: CXX_EXECUTABLE_LINKER__2263_Debug CMakeFiles/2263.dir/2263.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2263.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2263.exe
+  TARGET_IMPLIB = lib2263.dll.a
+  TARGET_PDB = 2263.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -138,7 +447,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 11657: phony 11657.exe
+
+build 12851: phony 12851.exe
+
+build 13549: phony 13549.exe
+
+build 14500: phony 14500.exe
+
+build 1753: phony 1753.exe
+
+build 1865: phony 1865.exe
+
+build 1918: phony 1918.exe
+
+build 2263: phony 2263.exe
+
 build 5430: phony 5430.exe
+
+build 9251: phony 9251.exe
 
 build baekjoon: phony baekjoon.exe
 
@@ -150,7 +477,7 @@ build baekjoon: phony baekjoon.exe
 #############################################
 # Folder: C:/Users/ehddu/Documents/CppProjects/baekjoon/cmake-build-debug
 
-build all: phony baekjoon.exe 5430.exe
+build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe
 
 # =============================================================================
 # Built-in targets

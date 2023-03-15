@@ -586,6 +586,39 @@ build 9663.exe: CXX_EXECUTABLE_LINKER__9663_Debug CMakeFiles/9663.dir/9663.cpp.o
   TARGET_IMPLIB = lib9663.dll.a
   TARGET_PDB = 9663.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 11725
+
+
+#############################################
+# Order-only phony target for 11725
+
+build cmake_object_order_depends_target_11725: phony || CMakeFiles/11725.dir
+
+build CMakeFiles/11725.dir/11725.cpp.obj: CXX_COMPILER__11725_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/11725.cpp || cmake_object_order_depends_target_11725
+  DEP_FILE = CMakeFiles\11725.dir\11725.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\11725.dir
+  OBJECT_FILE_DIR = CMakeFiles\11725.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11725
+
+
+#############################################
+# Link the executable 11725.exe
+
+build 11725.exe: CXX_EXECUTABLE_LINKER__11725_Debug CMakeFiles/11725.dir/11725.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11725.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11725.exe
+  TARGET_IMPLIB = lib11725.dll.a
+  TARGET_PDB = 11725.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -617,6 +650,8 @@ build 10830: phony 10830.exe
 build 11444: phony 11444.exe
 
 build 11657: phony 11657.exe
+
+build 11725: phony 11725.exe
 
 build 12851: phony 12851.exe
 
@@ -652,7 +687,7 @@ build baekjoon: phony baekjoon.exe
 #############################################
 # Folder: C:/Users/ehddu/Documents/CppProjects/baekjoon/cmake-build-debug
 
-build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe
+build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe 11725.exe
 
 # =============================================================================
 # Built-in targets

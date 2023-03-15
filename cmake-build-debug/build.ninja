@@ -652,6 +652,39 @@ build 1932.exe: CXX_EXECUTABLE_LINKER__1932_Debug CMakeFiles/1932.dir/1932.cpp.o
   TARGET_IMPLIB = lib1932.dll.a
   TARGET_PDB = 1932.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 11660
+
+
+#############################################
+# Order-only phony target for 11660
+
+build cmake_object_order_depends_target_11660: phony || CMakeFiles/11660.dir
+
+build CMakeFiles/11660.dir/11660.cpp.obj: CXX_COMPILER__11660_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/11660.cpp || cmake_object_order_depends_target_11660
+  DEP_FILE = CMakeFiles\11660.dir\11660.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\11660.dir
+  OBJECT_FILE_DIR = CMakeFiles\11660.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11660
+
+
+#############################################
+# Link the executable 11660.exe
+
+build 11660.exe: CXX_EXECUTABLE_LINKER__11660_Debug CMakeFiles/11660.dir/11660.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11660.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11660.exe
+  TARGET_IMPLIB = lib11660.dll.a
+  TARGET_PDB = 11660.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -683,6 +716,8 @@ build 10830: phony 10830.exe
 build 11444: phony 11444.exe
 
 build 11657: phony 11657.exe
+
+build 11660: phony 11660.exe
 
 build 11725: phony 11725.exe
 
@@ -722,7 +757,7 @@ build baekjoon: phony baekjoon.exe
 #############################################
 # Folder: C:/Users/ehddu/Documents/CppProjects/baekjoon/cmake-build-debug
 
-build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe 11725.exe 1932.exe
+build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe 11725.exe 1932.exe 11660.exe
 
 # =============================================================================
 # Built-in targets

@@ -784,6 +784,39 @@ build 15654.exe: CXX_EXECUTABLE_LINKER__15654_Debug CMakeFiles/15654.dir/15654.c
   TARGET_IMPLIB = lib15654.dll.a
   TARGET_PDB = 15654.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1197
+
+
+#############################################
+# Order-only phony target for 1197
+
+build cmake_object_order_depends_target_1197: phony || CMakeFiles/1197.dir
+
+build CMakeFiles/1197.dir/1197.cpp.obj: CXX_COMPILER__1197_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/1197.cpp || cmake_object_order_depends_target_1197
+  DEP_FILE = CMakeFiles\1197.dir\1197.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\1197.dir
+  OBJECT_FILE_DIR = CMakeFiles\1197.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1197
+
+
+#############################################
+# Link the executable 1197.exe
+
+build 1197.exe: CXX_EXECUTABLE_LINKER__1197_Debug CMakeFiles/1197.dir/1197.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1197.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1197.exe
+  TARGET_IMPLIB = lib1197.dll.a
+  TARGET_PDB = 1197.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -821,6 +854,8 @@ build 11660: phony 11660.exe
 build 1167: phony 1167.exe
 
 build 11725: phony 11725.exe
+
+build 1197: phony 1197.exe
 
 build 12851: phony 12851.exe
 
@@ -862,7 +897,7 @@ build baekjoon: phony baekjoon.exe
 #############################################
 # Folder: C:/Users/ehddu/Documents/CppProjects/baekjoon/cmake-build-debug
 
-build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe 11725.exe 1932.exe 11660.exe 1967.exe 1167.exe 15654.exe
+build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe 11725.exe 1932.exe 11660.exe 1967.exe 1167.exe 15654.exe 1197.exe
 
 # =============================================================================
 # Built-in targets

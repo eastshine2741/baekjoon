@@ -685,6 +685,39 @@ build 11660.exe: CXX_EXECUTABLE_LINKER__11660_Debug CMakeFiles/11660.dir/11660.c
   TARGET_IMPLIB = lib11660.dll.a
   TARGET_PDB = 11660.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1967
+
+
+#############################################
+# Order-only phony target for 1967
+
+build cmake_object_order_depends_target_1967: phony || CMakeFiles/1967.dir
+
+build CMakeFiles/1967.dir/1967.cpp.obj: CXX_COMPILER__1967_Debug C$:/Users/ehddu/Documents/CppProjects/baekjoon/1967.cpp || cmake_object_order_depends_target_1967
+  DEP_FILE = CMakeFiles\1967.dir\1967.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\1967.dir
+  OBJECT_FILE_DIR = CMakeFiles\1967.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1967
+
+
+#############################################
+# Link the executable 1967.exe
+
+build 1967.exe: CXX_EXECUTABLE_LINKER__1967_Debug CMakeFiles/1967.dir/1967.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1967.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1967.exe
+  TARGET_IMPLIB = lib1967.dll.a
+  TARGET_PDB = 1967.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -735,6 +768,8 @@ build 1918: phony 1918.exe
 
 build 1932: phony 1932.exe
 
+build 1967: phony 1967.exe
+
 build 2206: phony 2206.exe
 
 build 2263: phony 2263.exe
@@ -757,7 +792,7 @@ build baekjoon: phony baekjoon.exe
 #############################################
 # Folder: C:/Users/ehddu/Documents/CppProjects/baekjoon/cmake-build-debug
 
-build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe 11725.exe 1932.exe 11660.exe
+build all: phony baekjoon.exe 5430.exe 14500.exe 13549.exe 12851.exe 1753.exe 9251.exe 1865.exe 11657.exe 1918.exe 2263.exe 2206.exe 11444.exe 9465.exe 10830.exe 9663.exe 11725.exe 1932.exe 11660.exe 1967.exe
 
 # =============================================================================
 # Built-in targets
